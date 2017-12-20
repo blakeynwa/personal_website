@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Header from './containers/Header';
-import Image from './containers/Image'
+import Headshot from './containers/Headshot'
 import Navigator from './containers/Navigator'
 import Bio from './containers/Bio'
 import Footer from './containers/Footer'
@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navigator />
-        <Image />
+        <Headshot />
         <Header />
         <Bio />
         <Portfolio />
