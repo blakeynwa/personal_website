@@ -1,0 +1,15 @@
+.portrait {
+  display: inline-block;
+}
+
+.checking {
+  border-style: solid;
+  border-color: purple;
+  border-width: 10px;
+}
+
+.checkingtwo {
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+}
