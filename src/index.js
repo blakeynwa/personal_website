@@ -14,6 +14,11 @@ class App extends Component {
     return (
       <div className="App">
         <Navigator />
+      {/* Temporary fix for spacing issues below navbar, resolve later */}
+        <br />
+        <br />
+        <br />
+        <br />
         <Headshot />
         <Header />
         <Bio />

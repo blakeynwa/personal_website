@@ -1,19 +1,21 @@
 import React from 'react';
 import Grid from 'react-bootstrap/lib/Grid';
 import Col from 'react-bootstrap/lib/Col';
+import Row from 'react-bootstrap/lib/Row';
+import './Portfolio.css';
 
 const Portfolio = () => {
   return (
     <Grid>
-      <Col>
-        <div>
-          <h1>Portfolio</h1>
-          <ul>
-            <li><a href="http://swappaws.herokuapp.com">Swap Paws</a></li>
-            <li><a href="http://theteamtrackers.herokuapp.com/">Team Tracker</a></li>
-          </ul>
-        </div>
-      </Col>
+      <Row className="checking">
+        <Col md={4} mdPush={4} className="text-center">
+          <div>
+            <h1>Portfolio</h1>
+            <p><a href="http://swappaws.herokuapp.com">Swap Paws</a></p>
+            <p><a href="http://theteamtrackers.herokuapp.com/">Team Tracker</a></p>
+          </div>
+        </Col>
+      </Row>
     </Grid>
   )
 };

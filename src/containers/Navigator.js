@@ -7,7 +7,7 @@ import MenuItem from 'react-bootstrap/lib/MenuItem'
 
 const Navigator = () => {
   return (
-    <Navbar inverse collapseOnSelect>
+    <Navbar inverse fixedTop collapseOnSelect >
       <Navbar.Header>
         <Navbar.Brand>
           <a href="/">Blake L Meyer</a>
