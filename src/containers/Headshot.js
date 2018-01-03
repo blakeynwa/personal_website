@@ -4,7 +4,7 @@ import Grid from 'react-bootstrap/lib/Grid';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
 import Image from 'react-bootstrap/lib/Image';
-import './Headshot.css'
+import './Headshot.css';
 
 
 const Headshot = () => {
