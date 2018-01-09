@@ -14,10 +14,16 @@ const Portfolio = () => {
         <Col md={4} mdPush={4} className="text-center">
           <div>
             <h1>Portfolio</h1>
-            <Image className='img-responsive' src={swap}/>
-            <a href="http://swappaws.herokuapp.com">Swap Paws</a>
-            <Image className='img-responsive' src={team}/>
-            <a href="http://theteamtrackers.herokuapp.com/">Team Tracker</a>
+            <div className="portfolio-links">
+              <Col className='swappaws'>
+                <Image className='img-responsive' src={swap}/>
+                <a href="http://swappaws.herokuapp.com">Swap Paws</a>
+              </Col>
+              <Col className='teamtracker'>
+                <Image className='img-responsive' src={team}/>
+                <a href="http://theteamtrackers.herokuapp.com/">Team Tracker</a>
+              </Col>
+            </div>
           </div>
         </Col>
       </Row>
