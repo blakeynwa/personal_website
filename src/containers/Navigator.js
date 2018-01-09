@@ -1,9 +1,7 @@
 import React from 'react';
 import Nav from 'react-bootstrap/lib/Nav'
-import NavDropdown from 'react-bootstrap/lib/NavDropdown'
 import NavItem from 'react-bootstrap/lib/NavItem'
 import Navbar from 'react-bootstrap/lib/Navbar'
-import MenuItem from 'react-bootstrap/lib/MenuItem'
 
 const Navigator = () => {
   return (
