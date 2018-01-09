@@ -7,7 +7,7 @@ import MenuItem from 'react-bootstrap/lib/MenuItem'
 
 const Navigator = () => {
   return (
-    <Navbar inverse fixedTop collapseOnSelect >
+    <Navbar inverse fixedTop >
       <Navbar.Header>
         <Navbar.Brand>
           <a href="/">Blake L Meyer</a>
@@ -15,20 +15,10 @@ const Navigator = () => {
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
-        <Nav>
-          <NavItem eventKey={1} href="/">Link</NavItem>
-          <NavItem eventKey={2} href="/">Link</NavItem>
-          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-            <MenuItem eventKey={3.1}>Action</MenuItem>
-            <MenuItem eventKey={3.2}>Another action</MenuItem>
-            <MenuItem eventKey={3.3}>Something else here</MenuItem>
-            <MenuItem divider />
-            <MenuItem eventKey={3.3}>Separated link</MenuItem>
-          </NavDropdown>
-        </Nav>
         <Nav pullRight>
-          <NavItem eventKey={1} href="/">Link Right</NavItem>
-          <NavItem eventKey={2} href="/">Link Right</NavItem>
+          <NavItem eventKey={1} href="https://resume.creddle.io/resume/hxnyrwx7c73" target="_newtab">Resume</NavItem>
+          <NavItem eventKey={2} href="https://www.linkedin.com/in/blmeyer/" target="_newtab">Linkedin</NavItem>
+          <NavItem eventKey={3} href="https://github.com/blakeynwa" target="_newtab">GitHub</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
