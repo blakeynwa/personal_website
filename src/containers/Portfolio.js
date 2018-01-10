@@ -10,7 +10,7 @@ import './Portfolio.css';
 const Portfolio = () => {
   return (
     <Grid>
-      <Row className="checking">
+      <Row className="portfolio-border">
         <Col md={4} mdPush={4} className="text-center">
           <div>
             <h1>Portfolio</h1>

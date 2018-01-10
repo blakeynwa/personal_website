@@ -1,5 +1,8 @@
-.checking {
+.header-border {
   border-style: solid;
-  border-color: purple;
-  border-width: 10px;
+  border-color: #96858F;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: #9099A2;
+  margin-bottom: 10px;
 }

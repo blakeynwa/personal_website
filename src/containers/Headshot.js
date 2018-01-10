@@ -10,7 +10,7 @@ import './Headshot.css';
 const Headshot = () => {
   return (
     <Grid>
-      <Row className="checking">
+      <Row className="headshot-border">
         <Col sm={8} md={4} mdPush={4} smPush={2} className="checkingtwo">
           <div className="portrait">
             <Image className="img-responsive" src={img} width={449.28} height={299.52} rounded />

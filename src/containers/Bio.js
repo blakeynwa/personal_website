@@ -7,7 +7,7 @@ import './Bio.css';
 const Bio = () => {
   return (
     <Grid>
-      <Row className="checking">
+      <Row className="bio-border">
         <Col md={4} mdPush={4} className="text-center">
           <div>
             <h1>About me</h1>

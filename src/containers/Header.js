@@ -7,7 +7,7 @@ import './Header.css';
 const Header = () => {
   return (
     <Grid>
-      <Row className="checking">
+      <Row className="header-border">
         <Col mdPush={4} className="text-center">
           <div>
             <h1>Blake Meyer</h1>
