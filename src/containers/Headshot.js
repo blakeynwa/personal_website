@@ -11,7 +11,7 @@ const Headshot = () => {
   return (
     <Grid fluid>
       <Row className="headshot-border">
-        <Col sm={8} md={4} smPush={2}>
+        <Col>
           <div>
             <Image className="img-responsive" src={img} />
           </div>
