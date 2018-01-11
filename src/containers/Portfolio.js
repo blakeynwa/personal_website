@@ -9,18 +9,18 @@ import './Portfolio.css';
 
 const Portfolio = () => {
   return (
-    <Grid>
+    <Grid fluid>
       <Row className="portfolio-border">
         <Col md={4} mdPush={4} className="text-center">
           <div>
             <h1>Portfolio</h1>
             <div className="portfolio-links">
               <Col className='swappaws'>
-                <Image className='img-responsive' src={swap}/>
+                <Image thumbnail src={swap}/>
                 <a href="http://swappaws.herokuapp.com">Swap Paws</a>
               </Col>
               <Col className='teamtracker'>
-                <Image className='img-responsive' src={team}/>
+                <Image thumbnail src={team}/>
                 <a href="http://theteamtrackers.herokuapp.com/">Team Tracker</a>
               </Col>
             </div>

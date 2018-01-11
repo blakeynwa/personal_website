@@ -6,7 +6,7 @@ import './Bio.css';
 
 const Bio = () => {
   return (
-    <Grid>
+    <Grid fluid>
       <Row className="bio-border">
         <Col md={4} mdPush={4} className="text-center">
           <div>

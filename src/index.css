@@ -10,7 +10,18 @@ body {
   border-radius: 100%;
 }
 
-.App div {
+#Headshot {
   padding-right: 0px;
   padding-left: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+}
+
+#Header {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
 }

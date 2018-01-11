@@ -6,7 +6,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <Grid>
+    <Grid fluid>
       <Row className="header-border">
         <Col mdPush={4} className="text-center">
           <div>

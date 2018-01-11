@@ -1,5 +1,5 @@
-.portrait {
-  display: inline-block;
+.img-responsive {
+  max-width: 30%;
 }
 
 .headshot-border {

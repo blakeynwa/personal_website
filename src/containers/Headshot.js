@@ -9,10 +9,10 @@ import './Headshot.css';
 
 const Headshot = () => {
   return (
-    <Grid>
+    <Grid fluid>
       <Row className="headshot-border">
-        <Col sm={8} md={4} mdPush={4} smPush={2}>
-          <div className="portrait">
+        <Col sm={8} md={4} smPush={2}>
+          <div>
             <Image className="img-responsive" src={img} />
           </div>
         </Col>
