@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/lib/Navbar'
 
 const Navigator = () => {
   return (
-    <Navbar inverse fixedTop >
+    <Navbar inverse>
       <Navbar.Header>
         <Navbar.Brand>
           <a href="/">Blake L Meyer</a>

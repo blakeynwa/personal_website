@@ -8,10 +8,9 @@ const Header = () => {
   return (
     <Grid fluid>
       <Row className="header-border">
-        <Col mdPush={4} className="text-center">
+        <Col>
           <div>
-            <h1>Blake Meyer</h1>
-            <h1>Full Stack Developer</h1>
+            <h1 className="header-text">Blake Meyer, Web Developer</h1>
           </div>
         </Col>
       </Row>

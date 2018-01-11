@@ -1,8 +1,10 @@
 .img-responsive {
-  max-width: 30%;
+  max-width: 40%;
 }
 
 .headshot-border {
+  display: flex;
+  flex-direction: row;
   padding: 10px;
   border-style: solid;
   border-color: #96858F;
