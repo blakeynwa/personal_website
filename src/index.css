@@ -9,3 +9,8 @@ body {
   border-width: 1px; 
   border-radius: 100%;
 }
+
+.App div {
+  padding-right: 0px;
+  padding-left: 0px;
+}
