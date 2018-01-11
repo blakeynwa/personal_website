@@ -13,7 +13,7 @@ const Headshot = () => {
       <Row className="headshot-border">
         <Col sm={8} md={4} mdPush={4} smPush={2}>
           <div className="portrait">
-            <Image className="img-responsive" src={img} width={449.28} height={299.52} />
+            <Image className="img-responsive" src={img} />
           </div>
         </Col>
       </Row>
