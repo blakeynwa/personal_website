@@ -15,7 +15,6 @@ class App extends Component {
       <div className="App">
         <Navigator />
         <Headshot />
-        <Header />
         <Bio />
         <Portfolio />
       </div>

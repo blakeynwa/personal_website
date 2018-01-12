@@ -10,7 +10,7 @@ const Header = () => {
       <Row className="header-border">
         <Col>
           <div>
-            <h1 className="header-text">Blake Meyer, Web Developer</h1>
+            <h1 className="header-text">Blake Meyer</h1>
           </div>
         </Col>
       </Row>

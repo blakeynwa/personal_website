@@ -3,13 +3,7 @@
 }
 
 .headshot-border {
-  display: flex;
   flex-direction: row;
   padding: 10px;
-  border-style: solid;
-  border-color: #96858F;
-  border-width: 5px;
-  border-radius: 10px;
-  background-color: #9099A2;
-  margin-bottom: 10px;  
+  background-color: #9099A2; 
 }
