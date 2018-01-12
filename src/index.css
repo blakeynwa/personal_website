@@ -25,3 +25,7 @@ body {
   margin-right: 0;
   width: auto;
 }
+
+h1, p {
+  color: #333;
+}

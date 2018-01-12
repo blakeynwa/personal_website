@@ -4,6 +4,7 @@
 
 .headshot-border {
   flex-direction: row;
-  padding: 10px;
-  background-color: #9099A2; 
+  margin-top: 20px;
+  padding: 10px; 
+  background-color: #6D7993;
 }

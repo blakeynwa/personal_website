@@ -8,7 +8,7 @@ const Bio = () => {
   return (
     <Grid fluid>
       <Row className="bio-border">
-        <Col md={4} mdPush={4} className="text-center">
+        <Col md={12} className="text-left">
           <div>
             <h1>About me</h1>
             <p>I'm looking for a neat job!</p>

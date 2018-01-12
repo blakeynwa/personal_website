@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <Grid fluid>
       <Row className="portfolio-border">
-        <Col md={4} mdPush={4} className="text-center">
+        <Col md={12} className="text-right">
           <div>
             <h1>Portfolio</h1>
             <div className="portfolio-links">
