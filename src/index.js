@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Header from './containers/Header';
 import Headshot from './containers/Headshot'
 import Navigator from './containers/Navigator'
 import Bio from './containers/Bio'

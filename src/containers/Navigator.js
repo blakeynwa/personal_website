@@ -8,9 +8,6 @@ const Navigator = () => {
   return (
     <Navbar inverse>
       <Navbar.Header>
-        <Navbar.Brand>
-          <a href="/">Blake L Meyer</a>
-        </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
