@@ -1,8 +1,8 @@
 import React from 'react';
-import Nav from 'react-bootstrap/lib/Nav'
-import NavItem from 'react-bootstrap/lib/NavItem'
-import Navbar from 'react-bootstrap/lib/Navbar'
-import './Navigator.css'
+import Nav from 'react-bootstrap/lib/Nav';
+import NavItem from 'react-bootstrap/lib/NavItem';
+import Navbar from 'react-bootstrap/lib/Navbar';
+import './Navigator.css';
 
 const Navigator = () => {
   return (

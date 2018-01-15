@@ -12,7 +12,7 @@ const Headshot = () => {
   return (
     <Grid fluid>
       <Row className="headshot-border">
-        <Col sm={12}>
+        <Col sm={12} mdPush={1} md={11}>
           <Col sm={8}>
             <Image className="img-responsive" src={img} />
           </Col>

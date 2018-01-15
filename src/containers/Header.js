@@ -9,8 +9,8 @@ const Header = () => {
     <Grid fluid>
       <Row className="header-border">
         <Col>
-          <div>
-            <h1>Blake Meyer</h1>
+          <div className="heading-section">
+            <h1 className="my-name">Blake Meyer</h1>
             <h2 className="my-title">Web Developer</h2>
           </div>
         </Col>
