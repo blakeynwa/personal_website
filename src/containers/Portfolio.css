@@ -15,21 +15,39 @@
 }
 
 .swappaws {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
   display: block;
   float: left;
   margin-bottom: 30px;
 }
 
 .teamtracker {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
   display: block;
   float: left;
   margin-bottom: 30px;
 }
 
+.swappaws-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .swappaws-description {
   display: inline-block;
+  vertical-align: middle;
+}
+
+.teamtracker-logo {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .teamtracker-description {
   display: inline-block;
+  vertical-align: middle;
 }
