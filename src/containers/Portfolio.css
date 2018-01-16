@@ -40,6 +40,7 @@
 .swappaws-description {
   display: inline-block;
   vertical-align: middle;
+  margin-left: 150px;
 }
 
 .teamtracker-logo {
@@ -50,4 +51,5 @@
 .teamtracker-description {
   display: inline-block;
   vertical-align: middle;
+  margin-left: 150px;
 }
