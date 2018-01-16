@@ -21,9 +21,6 @@ const Portfolio = () => {
                 </a>
                 <div className="swappaws-description">
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
               </div>
               <div className='teamtracker'>               
@@ -31,9 +28,6 @@ const Portfolio = () => {
                   <Image className="teamtracker-logo" src={team} width={223} height={110}/>
                 </a>
                 <div className="teamtracker-description">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
               </div>
