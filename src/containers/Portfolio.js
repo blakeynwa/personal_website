@@ -16,12 +16,12 @@ const Portfolio = () => {
             <h1 className="portfolio-title">Portfolio</h1>
             <div className="portfolio-links">
               <div className='swappaws'>
-                <Image src={swap} width={223} height={58}/>
-                <a href="http://swappaws.herokuapp.com">Swap Paws</a>
+                <a href="http://swappaws.herokuapp.com" target="_newtab"><Image className="swappaws-logo" src={swap} width={223} height={58}/></a>
+                <p>Swap Paws description will live right here!</p>
               </div>
-              <div className='teamtracker'>
-                <Image src={team} width={223} height={223}/>
-                <a href="http://theteamtrackers.herokuapp.com/">Team Tracker</a>
+              <div className='teamtracker'>               
+                <a href="http://theteamtrackers.herokuapp.com/" target="_newtab"><Image className="teamtracker-logo" src={team} width={223} height={110}/></a>
+                <p>TeamTracker description will live right here!</p>
               </div>
             </div>
           </div>

@@ -1,5 +1,11 @@
 .portfolio-border {
   background-color: #6D7993;
+  margin-bottom: 50px;
+}
+
+.portfolio-links {
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio-title {
@@ -14,4 +20,22 @@
 .teamtracker {
   display: block;
   float: left;
+}
+
+.teamtracker-logo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-right: 570px;
+  top: -40px;
+}
+
+.swappaws-logo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-right: 570px;
+  top: -40px;
 }
