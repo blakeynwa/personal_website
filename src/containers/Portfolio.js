@@ -15,14 +15,14 @@ const Portfolio = () => {
           <div>
             <h1 className="portfolio-title">Portfolio</h1>
             <div className="portfolio-links">
-              <Col className='swappaws'>
+              <div className='swappaws'>
                 <Image src={swap} width={223} height={58}/>
                 <a href="http://swappaws.herokuapp.com">Swap Paws</a>
-              </Col>
-              <Col className='teamtracker'>
+              </div>
+              <div className='teamtracker'>
                 <Image src={team} width={223} height={223}/>
                 <a href="http://theteamtrackers.herokuapp.com/">Team Tracker</a>
-              </Col>
+              </div>
             </div>
           </div>
         </Col>

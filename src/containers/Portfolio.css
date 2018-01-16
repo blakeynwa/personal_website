@@ -2,11 +2,16 @@
   background-color: #6D7993;
 }
 
-.portfolio-links {
-  display: flex;
-  flex-direction: row;
-}
-
 .portfolio-title {
   font-family: 'Graduate', cursive;
+}
+
+.swappaws {
+  display: block;
+  float: left;
+}
+
+.teamtracker {
+  display: block;
+  float: left;
 }
