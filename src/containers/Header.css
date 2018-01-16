@@ -1,23 +1,27 @@
-/*.header-border {
-  border-style: solid;
-  border-color: #96858F;
-  border-width: 5px;
-  border-radius: 10px;
-  background-color: #9099A2;
-  margin-bottom: 10px;
-}*/
+.img-responsive {
+  display: inline;
+  max-width: 30%;
+}
+
+.headshot-border {
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 10px; 
+  background-color: #6D7993;
+}
 
 .my-name {
-  font-size: 3.2em;
+  font-size: 4em;
   font-weight: bold;
 }
 
 .my-title {
   margin-top: 0px;
-  font-size: 2.8;
+  font-size: 3.5em;
 }
 
 .heading-section {
-  margin-top: 65px;
   font-family: 'Graduate', cursive;
+  float: right;
+  margin-right: 50px;
 }
