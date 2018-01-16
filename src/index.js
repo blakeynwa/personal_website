@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Header from './containers/Header';
-import Headshot from './containers/Headshot'
+import Header from './containers/Header'
 import Navigator from './containers/Navigator'
 import Bio from './containers/Bio'
-import Footer from './containers/Footer'
 import Portfolio from './containers/Portfolio'
 import registerServiceWorker from './registerServiceWorker';
+import './index.css'
 
 
 class App extends Component {
@@ -14,11 +13,9 @@ class App extends Component {
     return (
       <div className="App">
         <Navigator />
-        <Headshot />
         <Header />
         <Bio />
         <Portfolio />
-        <Footer />
       </div>
     );
   }

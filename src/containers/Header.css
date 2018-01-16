@@ -1,0 +1,27 @@
+.img-responsive {
+  display: inline;
+  max-width: 30%;
+}
+
+.headshot-border {
+  flex-direction: row;
+  margin-top: 20px;
+  padding: 10px; 
+  background-color: #6D7993;
+}
+
+.my-name {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.my-title {
+  margin-top: 0px;
+  font-size: 3.5em;
+}
+
+.heading-section {
+  font-family: 'Graduate', cursive;
+  float: right;
+  margin-right: 50px;
+}
