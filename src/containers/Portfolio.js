@@ -32,12 +32,32 @@ const Portfolio = () => {
                     <li>Worked across all parts of the full stack using MVC architectural <br/> pattern</li>
                     <li>Utilized agile software development for maximum efficiency</li>
                   </ul>
-                  <Image className="mtrlz-tile" src={mtrlz} width={80} height={80}/>
-                  <Image className="ruby-tile" src={ruby} width={80} height={80}/>
-                  <Image className="rails-tile" src={rails} width={80} height={80}/>
-                  <Image className="html5-tile" src={html5} width={80} height={80}/>
-                  <Image className="jquery-tile" src={jquery} width={80} height={80}/>
-                  <Image className="rspec-tile" src={rspec} width={80} height={80}/>
+                </div>
+                <div className="tech-tiles">
+                  <div>
+                    <Image className="mtrlz-tile" src={mtrlz} width={80} height={80}/>
+                    <p>Materialize CSS</p>
+                  </div>
+                  <div>
+                    <Image className="ruby-tile" src={ruby} width={80} height={80}/>
+                    <p>Ruby</p>
+                  </div>
+                  <div>
+                    <Image className="rails-tile" src={rails} width={80} height={80}/>
+                    <p>Ruby on Rails</p>
+                  </div>
+                  <div>
+                    <Image className="html5-tile" src={html5} width={80} height={80}/>
+                    <p>HTML 5</p>
+                  </div>
+                  <div>
+                    <Image className="jquery-tile" src={jquery} width={80} height={80}/>
+                    <p>jquery</p>
+                  </div>
+                  <div>
+                    <Image className="rspec-tile" src={rspec} width={80} height={80}/>
+                    <p>Rspec</p>
+                  </div>
                 </div>
               </div>
               <div className='teamtracker'>               
