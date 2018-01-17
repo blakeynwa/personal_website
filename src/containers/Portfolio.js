@@ -3,6 +3,10 @@ import swap from '../images/swappaws.png';
 import team from '../images/teamtracker.png';
 import mtrlz from '../images/materialize.png';
 import ruby from '../images/ruby.png';
+import rails from '../images/rails.png';
+import html5 from '../images/html5.png';
+import jquery from '../images/jquery.png';
+import rspec from '../images/rspec.png';
 import Grid from 'react-bootstrap/lib/Grid';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
@@ -30,6 +34,10 @@ const Portfolio = () => {
                   </ul>
                   <Image className="mtrlz-tile" src={mtrlz} width={80} height={80}/>
                   <Image className="ruby-tile" src={ruby} width={80} height={80}/>
+                  <Image className="rails-tile" src={rails} width={80} height={80}/>
+                  <Image className="html5-tile" src={html5} width={80} height={80}/>
+                  <Image className="jquery-tile" src={jquery} width={80} height={80}/>
+                  <Image className="rspec-tile" src={rspec} width={80} height={80}/>
                 </div>
               </div>
               <div className='teamtracker'>               

@@ -84,3 +84,31 @@
   border-radius: 20px;
   background-color: #eee;
 }
+
+.rails-tile {
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: #eee;
+}
+
+.html5-tile {
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: #eee;
+}
+
+.jquery-tile {
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: #eee;
+}
+
+.rspec-tile {
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: #eee;
+}
