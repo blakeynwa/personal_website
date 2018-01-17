@@ -71,3 +71,16 @@
 .teamtracker-description ul li:before {
   content: "\00BB \0020";
 }
+
+.mtrlz-tile {
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.ruby-tile {
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: #eee;
+}
