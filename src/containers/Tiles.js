@@ -13,32 +13,30 @@ import './Tiles.css';
 
 const Tiles = () => {
   return (
-    <div className="tech-tiles">
-      <div>
-        <Image className="mtrlz-tile" src={mtrlz} width={80} height={80}/>
-        <p>Materialize CSS</p>
-      </div>
-      <div>
-        <Image className="ruby-tile" src={ruby} width={80} height={80}/>
-        <p>Ruby</p>
-      </div>
-      <div>
-        <Image className="rails-tile" src={rails} width={80} height={80}/>
-        <p>Ruby on Rails</p>
-      </div>
-      <div>
-        <Image className="html5-tile" src={html5} width={80} height={80}/>
-        <p>HTML 5</p>
-      </div>
-      <div>
-        <Image className="jquery-tile" src={jquery} width={80} height={80}/>
-        <p>jquery</p>
-      </div>
-      <div>
-        <Image className="rspec-tile" src={rspec} width={80} height={80}/>
-        <p>Rspec</p>
-      </div>
-    </div>
+    <Grid fluid>
+      <Row>
+        <Col xs={10} sm={12} md={12}>
+          <Col xs={1} sm={2} md={2}>
+            <Image className="mtrlz-tile" src={mtrlz} width={80} height={80}/>
+          </Col>
+          <Col xs={1} sm={2} md={2}>
+            <Image className="ruby-tile" src={ruby} width={80} height={80}/>
+          </Col>
+          <Col xs={1} sm={2} md={2}>
+            <Image className="rails-tile" src={rails} width={80} height={80}/>
+          </Col>
+          <Col xs={1} sm={2} md={2}>
+            <Image className="html5-tile" src={html5} width={80} height={80}/>
+          </Col>
+          <Col xs={1} sm={2} md={2}>
+            <Image className="jquery-tile" src={jquery} width={80} height={80}/>
+          </Col>
+          <Col xs={1} sm={2} md={2}>
+            <Image className="rspec-tile" src={rspec} width={80} height={80}/>
+          </Col>
+        </Col>
+      </Row>
+    </Grid>
   )
 };
 

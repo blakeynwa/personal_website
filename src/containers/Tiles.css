@@ -40,7 +40,7 @@
 }
 
 .tech-tiles {
-  margin-left: 160px;
+  
 }
 
 .tech-tiles div {
@@ -52,4 +52,8 @@
 .tech-tiles p {
   font-size: .8em;
   text-align: center;
+}
+
+Tiles p {
+  font-size: .8em;
 }
