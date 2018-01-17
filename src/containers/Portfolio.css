@@ -41,6 +41,15 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 150px;
+  font-size: 1.5em;
+}
+
+.swappaws-description ul {
+  list-style: none;
+}
+
+.swappaws-description ul li:before {
+  content: "\00BB \0020";
 }
 
 .teamtracker-logo {
@@ -52,4 +61,13 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 150px;
+  font-size: 1.5em;
+}
+
+.teamtracker-description ul {
+  list-style: none;
+}
+
+.teamtracker-description ul li:before {
+  content: "\00BB \0020";
 }
