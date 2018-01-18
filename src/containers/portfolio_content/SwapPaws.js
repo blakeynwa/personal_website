@@ -9,7 +9,7 @@ import './Description.css';
 const SwapPaws = () => {
   return (
     <Grid fluid>
-      <Row>
+      <Row className="swap-project">
         <Col xs={12} md={12}>
           <Col xs={12} sm={12} md={4}>
             <a href="http://swappaws.herokuapp.com" target="_newtab">

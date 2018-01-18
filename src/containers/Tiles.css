@@ -5,6 +5,11 @@
   background-color: #eee;
 }
 
+.tech-tiles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .tech-tiles p {
   font-size: .8em;
   text-align: center;

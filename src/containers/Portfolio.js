@@ -21,6 +21,7 @@ const Portfolio = () => {
               </div>
               <div className='teamtracker'>               
                 <TeamTracker />
+                <Tiles />
               </div>
             </div>
           </div>
