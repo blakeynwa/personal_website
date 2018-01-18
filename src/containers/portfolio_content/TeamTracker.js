@@ -16,7 +16,7 @@ const TeamTracker = () => {
               <Image src={team} width={300} height={147.78}/>
             </a>
           </Col>
-          <Col xs={12} sm={12} md={8}>
+          <Col xs={12} xsPull={2} sm={12} md={8}>
             <div className="description">
               <ul>
                 <li>TeamTracker is a web application that allows recreational sports teams to keep track of their players. If a game is coming up, then TeamTracker texts each player a reminder. If not enough players are available to play, alternate players are contacted until a team is full.</li>

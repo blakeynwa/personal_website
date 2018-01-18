@@ -16,7 +16,7 @@ const SwapPaws = () => {
               <Image src={swap} width={300} height={78}/>
             </a>
           </Col>
-          <Col xs={12} sm={12} md={8}>
+          <Col xs={12} xsPull={2} sm={12} md={8}>
             <div className="description">
               <ul>
                 <li>Web application built to client specification to connect dog owners with dog sitters</li>

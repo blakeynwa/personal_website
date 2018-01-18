@@ -23,3 +23,9 @@
   display: inline-block;
   vertical-align: middle;
 }
+
+@media (max-width: 414px) {  
+  .portfolio-title {
+    font-size: 2.5em;
+  }
+}
