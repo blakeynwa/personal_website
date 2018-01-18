@@ -15,23 +15,23 @@ const Tiles = () => {
   return (
     <Grid fluid>
       <Row>
-        <Col xs={12} sm={12} md={12}>
-          <Col xs={6} xsPush={1} sm={2} md={1}>
+        <Col xs={12} sm={12} md={10}>
+          <Col xs={6} xsPush={1} sm={2} md={1} mdOffset={1}>
             <Image className="tile" src={mtrlz} width={80} height={80}/>
           </Col>
-          <Col xs={6} xsPush={1} sm={2} md={1}>
+          <Col xs={6} xsPush={1} sm={2} md={1} mdOffset={1}>
             <Image className="tile" src={ruby} width={80} height={80}/>
           </Col>
-          <Col xs={6} xsPush={1} sm={2} md={1}>
+          <Col xs={6} xsPush={1} sm={2} md={1} mdOffset={1}>
             <Image className="tile" src={rails} width={80} height={80}/>
           </Col>
-          <Col xs={6} xsPush={1} sm={2} md={1}>
+          <Col xs={6} xsPush={1} sm={2} md={1} mdOffset={1}>
             <Image className="tile" src={html5} width={80} height={80}/>
           </Col>
-          <Col xs={6} xsPush={1} sm={2} md={1}>
+          <Col xs={6} xsPush={1} sm={2} md={1} mdOffset={1}>
             <Image className="tile" src={jquery} width={80} height={80}/>
           </Col>
-          <Col xs={6} xsPush={1} sm={2} md={1}>
+          <Col xs={6} xsPush={1} sm={2} md={1} mdOffset={1}>
             <Image className="tile" src={rspec} width={80} height={80}/>
           </Col>
         </Col>
