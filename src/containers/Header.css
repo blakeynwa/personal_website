@@ -2,6 +2,10 @@
   font-family: 'Graduate', cursive;
 }
 
+.headshot-border {
+  margin-bottom: 20px;
+}
+
 .my-name {
   font-size: 4em;
   font-weight: bold;

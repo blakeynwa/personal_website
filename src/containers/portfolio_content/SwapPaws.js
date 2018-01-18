@@ -10,13 +10,13 @@ const SwapPaws = () => {
   return (
     <Grid fluid>
       <Row className="swap-project">
-        <Col xs={12} md={12}>
+        <Col xs={12} md={11}>
           <Col xs={12} sm={12} md={4}>
             <a href="http://swappaws.herokuapp.com" target="_newtab">
               <Image src={swap} width={300} height={78}/>
             </a>
           </Col>
-          <Col xs={12} xsPull={2} sm={12} md={8}>
+          <Col xs={12} xsPull={2} sm={12} md={7} mdPush={1}>
             <div className="description">
               <ul>
                 <li>Web application built to client specification to connect dog owners with dog sitters</li>
