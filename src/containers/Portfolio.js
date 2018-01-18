@@ -1,10 +1,11 @@
 import React from 'react';
-import swap from '../images/swappaws.png';
 import team from '../images/teamtracker.png';
 import Grid from 'react-bootstrap/lib/Grid';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
 import Image from 'react-bootstrap/lib/Image';
+import SwapPaws from './portfolio_content/SwapPaws';
+import TeamTracker from './portfolio_content/TeamTracker';
 import Tiles from './Tiles';
 import './Portfolio.css';
 
@@ -17,31 +18,11 @@ const Portfolio = () => {
             <h1 className="portfolio-title">Portfolio</h1>
             <div className="portfolio-links">
               <div className='swappaws'>
-                <a href="http://swappaws.herokuapp.com" target="_newtab">
-                  <Image className="swappaws-logo" src={swap} width={223} height={58}/>
-                </a>
-                <div className="swappaws-description">
-                  <ul>
-                    <li>Web application built to client specification to connect dog owners <br/> with dog sitters</li>
-                    <li>Completed over the course of eight days on a team of three people</li>
-                    <li>Worked across all parts of the full stack using MVC architectural <br/> pattern</li>
-                    <li>Utilized agile software development for maximum efficiency</li>
-                  </ul>
-                </div>
+                <SwapPaws />
                 <Tiles />
               </div>
               <div className='teamtracker'>               
-                <a href="http://theteamtrackers.herokuapp.com/" target="_newtab">
-                  <Image className="teamtracker-logo" src={team} width={223} height={110}/>
-                </a>
-                <div className="teamtracker-description">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                  </ul>
-                </div>
+                <TeamTracker />
               </div>
             </div>
           </div>
