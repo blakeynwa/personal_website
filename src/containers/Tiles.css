@@ -14,3 +14,15 @@
   font-size: .8em;
   text-align: center;
 }
+
+@media (max-width: 414px) {  
+  .tech-tiles {
+    margin-top: 15px;
+    margin-left: -20px;
+    margin-right: 20px;
+  }
+
+  .tile {
+    margin-bottom: 20px;
+  }
+}
