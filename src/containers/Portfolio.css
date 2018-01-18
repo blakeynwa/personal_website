@@ -1,17 +1,25 @@
 .portfolio-border {
   background-color: #6D7993;
+  margin-bottom: 50px;
+}
+
+.portfolio-links {
 }
 
 .portfolio-title {
   font-family: 'Graduate', cursive;
+  font-size: 3.5em;
 }
 
 .swappaws {
-  display: block;
-  float: left;
+  margin-bottom: 30px;
 }
 
 .teamtracker {
-  display: block;
-  float: left;
+  margin-bottom: 30px;
+}
+
+.teamtracker-logo {
+  display: inline-block;
+  vertical-align: middle;
 }

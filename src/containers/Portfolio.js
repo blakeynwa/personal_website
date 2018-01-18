@@ -1,10 +1,10 @@
 import React from 'react';
-import swap from '../images/swappaws.png';
-import team from '../images/teamtracker.png';
 import Grid from 'react-bootstrap/lib/Grid';
 import Col from 'react-bootstrap/lib/Col';
 import Row from 'react-bootstrap/lib/Row';
-import Image from 'react-bootstrap/lib/Image';
+import SwapPaws from './portfolio_content/SwapPaws';
+import TeamTracker from './portfolio_content/TeamTracker';
+import Tiles from './Tiles';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -16,12 +16,12 @@ const Portfolio = () => {
             <h1 className="portfolio-title">Portfolio</h1>
             <div className="portfolio-links">
               <div className='swappaws'>
-                <Image src={swap} width={223} height={58}/>
-                <a href="http://swappaws.herokuapp.com">Swap Paws</a>
+                <SwapPaws />
+                <Tiles />
               </div>
-              <div className='teamtracker'>
-                <Image src={team} width={223} height={223}/>
-                <a href="http://theteamtrackers.herokuapp.com/">Team Tracker</a>
+              <div className='teamtracker'>               
+                <TeamTracker />
+                <Tiles />
               </div>
             </div>
           </div>
