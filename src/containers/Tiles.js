@@ -15,23 +15,23 @@ const Tiles = () => {
   return (
     <Grid fluid>
       <Row>
-        <Col xs={10} sm={12} md={12}>
-          <Col xs={1} sm={2} md={2}>
+        <Col xs={12} sm={12} md={12}>
+          <Col xs={6} sm={2} md={2}>
             <Image className="mtrlz-tile" src={mtrlz} width={80} height={80}/>
           </Col>
-          <Col xs={1} sm={2} md={2}>
+          <Col xs={6} sm={2} md={2}>
             <Image className="ruby-tile" src={ruby} width={80} height={80}/>
           </Col>
-          <Col xs={1} sm={2} md={2}>
+          <Col xs={6} sm={2} md={2}>
             <Image className="rails-tile" src={rails} width={80} height={80}/>
           </Col>
-          <Col xs={1} sm={2} md={2}>
+          <Col xs={6} sm={2} md={2}>
             <Image className="html5-tile" src={html5} width={80} height={80}/>
           </Col>
-          <Col xs={1} sm={2} md={2}>
+          <Col xs={6} sm={2} md={2}>
             <Image className="jquery-tile" src={jquery} width={80} height={80}/>
           </Col>
-          <Col xs={1} sm={2} md={2}>
+          <Col xs={6} sm={2} md={2}>
             <Image className="rspec-tile" src={rspec} width={80} height={80}/>
           </Col>
         </Col>

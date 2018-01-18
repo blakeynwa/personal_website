@@ -28,8 +28,8 @@ const Portfolio = () => {
                     <li>Utilized agile software development for maximum efficiency</li>
                   </ul>
                 </div>
+                <Tiles />
               </div>
-              <Tiles />
               <div className='teamtracker'>               
                 <a href="http://theteamtrackers.herokuapp.com/" target="_newtab">
                   <Image className="teamtracker-logo" src={team} width={223} height={110}/>
