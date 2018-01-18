@@ -1,13 +1,5 @@
-.img-responsive {
-  display: inline;
-  max-width: 30%;
-}
-
-.headshot-border {
-  flex-direction: row;
-  margin-top: 20px;
-  padding: 10px; 
-  background-color: #6D7993;
+.heading-section {
+  font-family: 'Graduate', cursive;
 }
 
 .my-name {
@@ -20,13 +12,13 @@
   font-size: 3.5em;
 }
 
-.heading-section {
-  font-family: 'Graduate', cursive;
-  float: right;
-  margin-top: 30px;
-  margin-right: 50px;
-}
+@media (max-width: 414px) {  
+  .my-name {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
 
-.col-sm-8 {
-  margin-left: 180px;
+  .my-title {
+    font-size: 2.3em;
+  }
 }

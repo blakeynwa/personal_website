@@ -11,9 +11,11 @@ const Header = () => {
   return (
     <Grid fluid>
       <Row className="headshot-border">
-        <Col sm={12} md={12}>
-          <Col sm={8}>
+        <Col xs={12} sm={12} md={12}>
+          <Col xs={10} xsPush={1} sm={8}>
             <Image className="img-responsive" src={img} />
+          </Col>
+          <Col xs={10} xsPush={1}>
             <div className="heading-section">
               <h1 className="my-name">Blake Meyer</h1>
               <h2 className="my-title">Web Developer</h2>

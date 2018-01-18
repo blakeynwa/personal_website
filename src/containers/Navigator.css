@@ -16,3 +16,9 @@
 .navbar-inverse .navbar-brand {
   color: #333;
 }
+
+@media (max-width: 414px) {  
+  .navbar {
+    margin-bottom: 20px;
+  }
+}
