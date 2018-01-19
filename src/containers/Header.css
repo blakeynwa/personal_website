@@ -30,3 +30,28 @@
     text-align: center;
   }
 }
+
+@media (max-width: 768px) {  
+  .my-name {
+    font-size: 3.5em;
+    font-weight: bold;
+  }
+
+  .my-title {
+    font-size: 2.3em;
+  }
+
+  .heading-section {
+    text-align: center;
+  }
+
+  .img-responsive {
+    max-width: 80%;
+    margin-left: 107.703px;
+  }
+
+  .col-md-12.col-sm-12.col-xs-12 {
+    margin-top: 0px;
+  }
+
+}

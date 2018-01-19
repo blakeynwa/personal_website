@@ -53,3 +53,28 @@
     margin-right: -40px;
   }
 }
+
+@media (max-width: 768px) {  
+  .portfolio-links {
+    margin-left: 0;
+  }
+
+  .swap-project {
+    margin-top: -20px;
+  }
+
+  .col-xs-12 {
+    margin-top: 20px;
+  }
+
+  .col-md-4.col-sm-12.col-xs-12 {
+    margin-left: -40px;
+  }
+  .col-md-7.col-md-push-1.col-sm-12.col-xs-12.col-xs-pull-2 {
+    margin-left: 60px;
+  }
+
+  .description {
+    margin-right: -40px;
+  }
+}
