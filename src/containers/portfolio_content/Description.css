@@ -31,3 +31,25 @@
     margin-right: -40px;
   }
 }
+
+@media (max-width: 320px) {  
+  .portfolio-links {
+    margin-left: 0;
+  }
+
+  .swap-project {
+    margin-top: -20px;
+  }
+
+  .col-xs-12 {
+    margin-top: 20px;
+  }
+
+  .col-md-4.col-sm-12.col-xs-12 {
+    margin-left: -40px;
+  }
+
+  .description {
+    margin-right: -40px;
+  }
+}
